@@ -1,7 +1,0 @@
-{
-    "dependencies": [
-        "~/src/layouts/default/browser.json",
-        "~/src/global-style/browser.json",
-        "require: ~/src/components/app"
-    ]
-}

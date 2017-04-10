@@ -1,0 +1,17 @@
+class {
+  onCreate ({count = 0}) {
+    this.state = {
+      count
+    }
+  }
+  increment () {
+    this.state.count++
+  }
+  decrement () {
+    this.state.count--
+  }
+}
+
+<div>Current count: ${state.count}</div>
+<button onClick('decrement')>Down!</button>
+<button onClick('increment')>Up!</button>
